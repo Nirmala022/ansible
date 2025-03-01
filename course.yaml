@@ -1,4 +1,4 @@
 COURSE: "DevOps with aws"
 DURATION: 120HRS
 TRAINER: sivakumar
-#GREET: Files
+GREET: "from Files"
