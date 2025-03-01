@@ -1,7 +1,7 @@
 - name: variables
   hosts: local
   connection: local
-  vars_files:
+  vars:
     GREET: "PLAY"
   vars_files:
   - course.yaml
@@ -17,4 +17,6 @@
       msg: "Hello from {{GREET}}"
 
 # command line
-# task level      
+# task level   
+#prompt
+#play   
